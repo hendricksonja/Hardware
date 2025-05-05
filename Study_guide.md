@@ -1,4 +1,3 @@
-Based on your comprehensive lecture summaries, I’ve synthesized the topics into **study-ready categories**, **fact-checked key claims**, and **expanded on areas that benefit from clarification**. Here’s a master **Final Exam Study Guide Outline**, organized by **topic and subtopic**, with notes where appropriate.
 
 ---
 
@@ -10,9 +9,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 * Two’s Complement: Representation of signed numbers
 * Binary arithmetic: Addition, overflow, carry
 
-✅ **Fact-Checked:** Binary and hex being used for addressing and memory are accurate.
-
-🧩 **Clarification:** Students should know why hexadecimal is used in debugging (e.g., easier to read than long binary strings).
 
 ---
 
@@ -36,9 +32,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 * Half and full adders
 * Building 8-bit adders using logic gates
 
-✅ **Fact-Checked:** Transistor explanations, including enhancement-mode MOSFETs and doping, are accurate.
-
-🧩 **Clarification:** Stress the **logical abstraction chain**: transistor → gate → circuit → ALU.
 
 ---
 
@@ -62,9 +55,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 * Main Memory (DRAM)
 * Storage (SSD, HDD)
 
-✅ **Fact-Checked:** RAM is volatile and built from 1T1C cells in DRAM; caches use SRAM.
-
-🧩 **Clarification:** Expand on **register vs. cache** speed differential and memory access latency (e.g., nanosecond scale for cache, milliseconds for HDD).
 
 ---
 
@@ -83,9 +73,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 
 * Boot process, CMOS battery, firmware storage
 
-✅ **Fact-Checked:** VRMs step down +12V to CPU levels (\~1.2V); BIOS stored in ROM, CMOS stores settings.
-
-🧩 **Clarification:** BIOS ≠ UEFI; UEFI is the modern standard supporting graphical interfaces and secure boot.
 
 ---
 
@@ -108,9 +95,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 * Paging, memory matrix structure
 * Address vs. data vs. control bus
 
-✅ **Fact-Checked:** 1T1C DRAM cells, ECC handling single-bit errors, and RAM refresh behavior are correct.
-
-🧩 **Clarification:** Consider including a **visual diagram** of the memory pyramid and access time comparison chart (e.g., registers \~0.3 ns vs SSD \~100 µs).
 
 ---
 
@@ -133,9 +117,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 * RAID 0, 1, 5, 6, 10 — advantages, redundancy, hot spares
 * RAID efficiency formulas (`N-1`, `N-2`)
 
-✅ **Fact-Checked:** Modern SSD speeds (3,000+ MB/s for NVMe), NAND cell limitations, and RAID levels all match current specs.
-
-🧩 **Clarification:** Stress that SSDs are susceptible to data loss on power failure without capacitors or battery backup (important in enterprise use).
 
 ---
 
@@ -157,9 +138,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 * Spatial vs. temporal compression
 * Bit depth (8-bit vs 10-bit HDR10)
 
-✅ **Fact-Checked:** HDMI does carry audio/video/Ethernet; DisplayPort can daisy-chain.
-
-🧩 **Clarification:** USB-C is a **connector**, not a protocol. Can carry Thunderbolt, DisplayPort, or USB depending on the device and cable.
 
 ---
 
@@ -183,9 +161,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 * Serial vs. parallel communication
 * Full-duplex vs half-duplex vs simplex
 
-✅ **Fact-Checked:** USB polling behavior and signal transmission mechanisms are correct.
-
-🧩 **Clarification:** Reiterate that most USB devices are polled by the **host**, not event-driven like some protocols (e.g., interrupts over GPIO).
 
 ---
 
@@ -208,9 +183,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 * Kill-A-Watt meters, power supply testers
 * Chip creep, surge protection, cheap PSU risks
 
-✅ **Fact-Checked:** Modular PSUs, proper grounding, and the function of voltage regulators are correct.
-
-🧩 **Clarification:** Emphasize that **clean power** and voltage stability are critical for system reliability, particularly under overclocking or high-load conditions.
 
 ---
 
@@ -231,19 +203,6 @@ Based on your comprehensive lecture summaries, I’ve synthesized the topics int
 * Translation tables in SSDs vs NAT tables vs memory paging
 * Benefits of hiding complexity (e.g., GUI over shell)
 
-✅ **Fact-Checked:** Instruction cycle and OS abstraction principles align with industry understanding.
-
-🧩 **Clarification:** Great time to tie these into student projects or simulation labs using tools like CircuitVerse or Minecraft-ALU builds.
 
 ---
 
-## ✅ Recommended Exam Prep Format
-
-* **Short Answer**: Explain cache hierarchy, memory types, or RAID levels.
-* **Diagrams**: Label a motherboard or memory pyramid.
-* **Calculations**: Convert between binary/hex, calculate storage capacity.
-* **Application**: Given a task (e.g., booting an OS), describe hardware involved in each step.
-
----
-
-Would you like a printable or interactive **study guide** formatted from this outline?
